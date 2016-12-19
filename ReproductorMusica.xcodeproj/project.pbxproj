@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1708F33F1E07549700C39158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1708F33E1E07549700C39158 /* AppDelegate.swift */; };
+		1708F3411E07549700C39158 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1708F3401E07549700C39158 /* ViewController.swift */; };
+		1708F3441E07549700C39158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1708F3421E07549700C39158 /* Main.storyboard */; };
+		1708F3461E07549700C39158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1708F3451E07549700C39158 /* Assets.xcassets */; };
+		1708F3491E07549700C39158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1708F3471E07549700C39158 /* LaunchScreen.storyboard */; };
+		1708F3511E075A9800C39158 /* Cancion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1708F3501E075A9800C39158 /* Cancion.swift */; };
+		1708F3531E0761DF00C39158 /* bicicleta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1708F3521E0761DF00C39158 /* bicicleta.jpg */; };
+		1708F3581E08478800C39158 /* bicicleta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1708F3571E08478800C39158 /* bicicleta.mp3 */; };
+		1708F35A1E084C7200C39158 /* elmar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1708F3591E084C7200C39158 /* elmar.jpg */; };
+		1708F35C1E084E7400C39158 /* nota.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1708F35B1E084E7400C39158 /* nota.jpg */; };
+		1708F35E1E084E8A00C39158 /* notas.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1708F35D1E084E8A00C39158 /* notas.mp3 */; };
+		1708F3601E084EEA00C39158 /* elmar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1708F35F1E084EEA00C39158 /* elmar.mp3 */; };
+		1708F3621E08745400C39158 /* cuando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1708F3611E08745400C39158 /* cuando.mp3 */; };
+		1708F3641E08746100C39158 /* cuando.png in Resources */ = {isa = PBXBuildFile; fileRef = 1708F3631E08746100C39158 /* cuando.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1708F33B1E07549700C39158 /* ReproductorMusica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReproductorMusica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1708F33E1E07549700C39158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1708F3401E07549700C39158 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1708F3431E07549700C39158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1708F3451E07549700C39158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1708F3481E07549700C39158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1708F34A1E07549700C39158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1708F3501E075A9800C39158 /* Cancion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cancion.swift; sourceTree = "<group>"; };
+		1708F3521E0761DF00C39158 /* bicicleta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bicicleta.jpg; sourceTree = "<group>"; };
+		1708F3571E08478800C39158 /* bicicleta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bicicleta.mp3; sourceTree = "<group>"; };
+		1708F3591E084C7200C39158 /* elmar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elmar.jpg; sourceTree = "<group>"; };
+		1708F35B1E084E7400C39158 /* nota.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nota.jpg; sourceTree = "<group>"; };
+		1708F35D1E084E8A00C39158 /* notas.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = notas.mp3; sourceTree = "<group>"; };
+		1708F35F1E084EEA00C39158 /* elmar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elmar.mp3; sourceTree = "<group>"; };
+		1708F3611E08745400C39158 /* cuando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cuando.mp3; sourceTree = "<group>"; };
+		1708F3631E08746100C39158 /* cuando.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuando.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1708F3381E07549700C39158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1708F3321E07549600C39158 = {
+			isa = PBXGroup;
+			children = (
+				1708F33D1E07549700C39158 /* ReproductorMusica */,
+				1708F33C1E07549700C39158 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1708F33C1E07549700C39158 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1708F33B1E07549700C39158 /* ReproductorMusica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1708F33D1E07549700C39158 /* ReproductorMusica */ = {
+			isa = PBXGroup;
+			children = (
+				1708F3521E0761DF00C39158 /* bicicleta.jpg */,
+				1708F3591E084C7200C39158 /* elmar.jpg */,
+				1708F35B1E084E7400C39158 /* nota.jpg */,
+				1708F3631E08746100C39158 /* cuando.png */,
+				1708F3571E08478800C39158 /* bicicleta.mp3 */,
+				1708F35D1E084E8A00C39158 /* notas.mp3 */,
+				1708F35F1E084EEA00C39158 /* elmar.mp3 */,
+				1708F3611E08745400C39158 /* cuando.mp3 */,
+				1708F33E1E07549700C39158 /* AppDelegate.swift */,
+				1708F3401E07549700C39158 /* ViewController.swift */,
+				1708F3421E07549700C39158 /* Main.storyboard */,
+				1708F3451E07549700C39158 /* Assets.xcassets */,
+				1708F3471E07549700C39158 /* LaunchScreen.storyboard */,
+				1708F34A1E07549700C39158 /* Info.plist */,
+				1708F3501E075A9800C39158 /* Cancion.swift */,
+			);
+			path = ReproductorMusica;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1708F33A1E07549700C39158 /* ReproductorMusica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1708F34D1E07549700C39158 /* Build configuration list for PBXNativeTarget "ReproductorMusica" */;
+			buildPhases = (
+				1708F3371E07549700C39158 /* Sources */,
+				1708F3381E07549700C39158 /* Frameworks */,
+				1708F3391E07549700C39158 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReproductorMusica;
+			productName = ReproductorMusica;
+			productReference = 1708F33B1E07549700C39158 /* ReproductorMusica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1708F3331E07549600C39158 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Oscar Javier Olivos";
+				TargetAttributes = {
+					1708F33A1E07549700C39158 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 69E7BR8H7Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1708F3361E07549700C39158 /* Build configuration list for PBXProject "ReproductorMusica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1708F3321E07549600C39158;
+			productRefGroup = 1708F33C1E07549700C39158 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1708F33A1E07549700C39158 /* ReproductorMusica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1708F3391E07549700C39158 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1708F3641E08746100C39158 /* cuando.png in Resources */,
+				1708F3531E0761DF00C39158 /* bicicleta.jpg in Resources */,
+				1708F3491E07549700C39158 /* LaunchScreen.storyboard in Resources */,
+				1708F3621E08745400C39158 /* cuando.mp3 in Resources */,
+				1708F3581E08478800C39158 /* bicicleta.mp3 in Resources */,
+				1708F3461E07549700C39158 /* Assets.xcassets in Resources */,
+				1708F35E1E084E8A00C39158 /* notas.mp3 in Resources */,
+				1708F3601E084EEA00C39158 /* elmar.mp3 in Resources */,
+				1708F35C1E084E7400C39158 /* nota.jpg in Resources */,
+				1708F3441E07549700C39158 /* Main.storyboard in Resources */,
+				1708F35A1E084C7200C39158 /* elmar.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1708F3371E07549700C39158 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1708F3511E075A9800C39158 /* Cancion.swift in Sources */,
+				1708F3411E07549700C39158 /* ViewController.swift in Sources */,
+				1708F33F1E07549700C39158 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1708F3421E07549700C39158 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1708F3431E07549700C39158 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1708F3471E07549700C39158 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1708F3481E07549700C39158 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1708F34B1E07549700C39158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1708F34C1E07549700C39158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1708F34E1E07549700C39158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69E7BR8H7Y;
+				INFOPLIST_FILE = ReproductorMusica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.oscarolivos.ReproductorMusica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1708F34F1E07549700C39158 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 69E7BR8H7Y;
+				INFOPLIST_FILE = ReproductorMusica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.oscarolivos.ReproductorMusica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1708F3361E07549700C39158 /* Build configuration list for PBXProject "ReproductorMusica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1708F34B1E07549700C39158 /* Debug */,
+				1708F34C1E07549700C39158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1708F34D1E07549700C39158 /* Build configuration list for PBXNativeTarget "ReproductorMusica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1708F34E1E07549700C39158 /* Debug */,
+				1708F34F1E07549700C39158 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1708F3331E07549600C39158 /* Project object */;
+}
