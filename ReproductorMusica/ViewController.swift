@@ -40,6 +40,9 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         let cuando = Cancion(titulo: "Cuando nos Volvamos a encontrar - Carlos Vives ft. Marc Anthony", portada: UIImage(named: "cuando.png")!, url: Bundle.main.url(forResource: "cuando", withExtension: "mp3")!)
         canciones.append(cuando)
         
+        let fiesta = Cancion(titulo: "Ella es mi Fiesta - Carlos Vives", portada: UIImage(named: "fiesta.jpg")!, url: Bundle.main.url(forResource: "fiesta", withExtension: "mp3")!)
+        canciones.append(fiesta)
+        
         
         prepareToPlay(cancion: canciones[0])
         

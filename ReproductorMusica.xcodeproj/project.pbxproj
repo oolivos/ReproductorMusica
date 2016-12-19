@@ -21,6 +21,8 @@
 		1708F3601E084EEA00C39158 /* elmar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1708F35F1E084EEA00C39158 /* elmar.mp3 */; };
 		1708F3621E08745400C39158 /* cuando.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1708F3611E08745400C39158 /* cuando.mp3 */; };
 		1708F3641E08746100C39158 /* cuando.png in Resources */ = {isa = PBXBuildFile; fileRef = 1708F3631E08746100C39158 /* cuando.png */; };
+		1708F3661E087D6400C39158 /* fiesta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1708F3651E087D6400C39158 /* fiesta.jpg */; };
+		1708F3681E087D7100C39158 /* fiesta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1708F3671E087D7100C39158 /* fiesta.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		1708F35F1E084EEA00C39158 /* elmar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elmar.mp3; sourceTree = "<group>"; };
 		1708F3611E08745400C39158 /* cuando.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cuando.mp3; sourceTree = "<group>"; };
 		1708F3631E08746100C39158 /* cuando.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuando.png; sourceTree = "<group>"; };
+		1708F3651E087D6400C39158 /* fiesta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fiesta.jpg; sourceTree = "<group>"; };
+		1708F3671E087D7100C39158 /* fiesta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fiesta.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +80,12 @@
 				1708F3591E084C7200C39158 /* elmar.jpg */,
 				1708F35B1E084E7400C39158 /* nota.jpg */,
 				1708F3631E08746100C39158 /* cuando.png */,
+				1708F3651E087D6400C39158 /* fiesta.jpg */,
 				1708F3571E08478800C39158 /* bicicleta.mp3 */,
 				1708F35D1E084E8A00C39158 /* notas.mp3 */,
 				1708F35F1E084EEA00C39158 /* elmar.mp3 */,
 				1708F3611E08745400C39158 /* cuando.mp3 */,
+				1708F3671E087D7100C39158 /* fiesta.mp3 */,
 				1708F33E1E07549700C39158 /* AppDelegate.swift */,
 				1708F3401E07549700C39158 /* ViewController.swift */,
 				1708F3421E07549700C39158 /* Main.storyboard */,
@@ -156,8 +162,10 @@
 				1708F3491E07549700C39158 /* LaunchScreen.storyboard in Resources */,
 				1708F3621E08745400C39158 /* cuando.mp3 in Resources */,
 				1708F3581E08478800C39158 /* bicicleta.mp3 in Resources */,
+				1708F3661E087D6400C39158 /* fiesta.jpg in Resources */,
 				1708F3461E07549700C39158 /* Assets.xcassets in Resources */,
 				1708F35E1E084E8A00C39158 /* notas.mp3 in Resources */,
+				1708F3681E087D7100C39158 /* fiesta.mp3 in Resources */,
 				1708F3601E084EEA00C39158 /* elmar.mp3 in Resources */,
 				1708F35C1E084E7400C39158 /* nota.jpg in Resources */,
 				1708F3441E07549700C39158 /* Main.storyboard in Resources */,
